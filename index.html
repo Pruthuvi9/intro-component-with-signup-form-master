@@ -1,42 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./index.css">
-  
+
   <title>Frontend Mentor | Intro component with sign up form</title>
 
 </head>
+
 <body>
+  <main>
+    <div class="container-fluid">
+      <h1 class="text-center">Learn to code by watching others</h1>
 
-  <h1>Learn to code by watching others</h1>
+      <p class="text-center" style="font-size: 1.1em; line-height: 1.5em; color: hsla(0, 0%, 100%, 0.8); margin-bottom: 18%;">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</p>
 
-  <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-    but understanding how developers think is invaluable.</p> 
+      <p id="trial-description" class="blue-box text-center"><span style="font-weight: 600;">Try it free 7 days</span> then $20/mo.
+        thereafter</p>
 
-  <p>Try it free 7 days then $20/mo. thereafter</p>
+      <form>
+        <div class="form-group white-card">
+          <div id="first-name-div">
+            <input class="form-control form-control-lg" type="text" name="first-name" id="first-name" placeholder="First Name">
+          </div>
 
-  <form>
-    <label for="first-name">First Name</label>
-    <input  type="text" name="first-name" id="first-name">
+          <div id="last-name-div">
+            <input class="form-control form-control-lg" type="text" name="last-name" id="last-name" placeholder="Last Name">
+          </div>
 
-    <label id="last-name">Last Name</label>
-    <input type="text">
+          <div id="email-div">
+            <input class="form-control form-control-lg" type="email" name="email" id="email" placeholder="Email Address">
+          </div>
 
-    <label for="email">Email Address</label>
-    <input type="email" name="email" id="email">
+          <div id="password-div">
+            <input class="form-control form-control-lg" type="password" name="password" id="password" placeholder="Password">
+          </div>
 
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password">
+          <div id="free-trial-button-div">
+            <button id="free-trial" class="btn btn-primary btn-lg btn-block" style="padding: 5%; font-size: 1em; letter-spacing: 0.1em;">CLAIM YOUR FREE TRIAL</button>
+          </div>
+          
+          <div id="t-and-d-description">
+            <p class="text-center" style="color: hsl(246, 25%, 77%); margin: 5%; font-size: 0.8em; line-height: 2em">By clicking the button, you are agreeing to our <span style="color: hsl(0, 100%, 74%); font-weight: 700;">Terms and Services</span></p>
+          </div>
+          
+        </div>
+      </form>
+    </div>
+  </main>
 
-    <button id="free-trial">Claim your free trial</button>
-    <p>By clicking the button, you are agreeing to our Terms and Services</p>
-  </form> 
-
-  
-  
 </body>
+
 </html>

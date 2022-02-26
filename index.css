@@ -1,0 +1,93 @@
+body {
+  background-image: url(./images/bg-intro-mobile.png);
+  background-color: hsl(0, 100%, 74%);
+  font-family: 'Poppins', sans-serif;
+  padding: 15% 2%;
+}
+
+@media (min-width: 576px) {
+  body {
+    background-image: url(./images/bg-intro-desktop.png);
+  }
+}
+
+@media (min-width: 992px) {
+  .white-card {
+    max-width: 500px;
+  }
+
+  .blue-box {
+    max-width: 500px;
+    font-size: 1em;
+  }
+
+}
+
+h1 {
+  font-weight: 700;
+  color: white;
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin: 10%;
+}
+
+p {
+  font-weight: 400;
+  color: white;
+  font-size: 1em;
+}
+
+#free-trial {
+  background-color: hsl(154, 59%, 51%);
+  border-color: hsl(154, 59%, 40%);
+  border-bottom: 5px;
+}
+
+#first-name-div, #last-name-div, #email-div, #password-div {
+  margin-bottom: 5%;
+  padding: 0%;
+  width: auto;
+}
+
+#free-trial-button-div {
+  margin-bottom: 5%;
+  width: auto;
+}
+
+#t-and-d-description {
+  /* margin-bottom: 5%; */
+  padding: 0%;
+  width: auto;
+}
+
+input::placeholder {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.blue-box {
+  background-color: hsl(248, 32%, 49%);
+  border-color: hsl(248, 32%, 40%);
+  padding: 7% 20%;
+  margin-bottom: 7%;
+  border-radius: 0.8em;
+  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.white-card {
+  background-color: white;
+  border-radius: 0.8em;
+  padding: 0%;
+  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.form-control-lg {
+  height: 3em;
+}
+
+.form-group {
+  padding: 7%;
+}
+
+
