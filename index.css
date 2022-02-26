@@ -65,10 +65,18 @@ p {
   font-size: 1em;
 }
 
+
 #free-trial {
   background-color: hsl(154, 59%, 51%);
   border-color: hsl(154, 59%, 40%);
   box-shadow: 0 0.3em 0 0 hsl(154, 59%, 40%);
+}
+
+#free-trial:active {
+  cursor: pointer;
+  background-color: hsl(154, 59%, 70%);
+  border-color: hsl(154, 59%, 60%);
+  box-shadow: 0 0.3em 0 0 hsl(154, 59%, 60%);
 }
 
 #first-name-div, #last-name-div, #email-div, #password-div {
