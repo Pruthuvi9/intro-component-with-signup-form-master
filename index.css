@@ -117,12 +117,31 @@ input::placeholder {
   box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.15);
 }
 
-.form-control-lg {
+.form-control.form-control-lg {
   height: 3em;
+}
+
+.material-icons-outlined.md-24 {
+  color: hsl(0, 100%, 74%);
+  float: right;
+  font-size: 1.5em;
+  float: right;
+  /* position: absolute; */
+  z-index: 2;
+  transform: translate(-0.5em, -1.65em);
 }
 
 .form-group {
   padding: 7%;
 }
+
+.error-messages {
+  color: hsl(0, 100%, 74%);
+  font-style: italic;
+  font-weight: 500;
+  text-align: end;
+}
+
+
 
 
