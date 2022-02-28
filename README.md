@@ -75,7 +75,7 @@ if (firstName.value === '') {
 
 ### Useful resources
 
-- (https://attacomsian.com/blog/javascript-set-css-styles) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- (https://attacomsian.com/blog/javascript-set-css-styles) - This helped me with adding CSS styles using JS.
 
 
 ## Author
