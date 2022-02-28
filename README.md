@@ -71,8 +71,6 @@ if (firstName.value === '') {
 
 - Rebuild this with React and add a functioning backend using Node.js or SQL
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - (https://attacomsian.com/blog/javascript-set-css-styles) - This helped me with adding CSS styles using JS.
