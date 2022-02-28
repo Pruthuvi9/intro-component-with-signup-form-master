@@ -28,7 +28,7 @@ form.addEventListener('submit', (e) => {
     document.getElementById('error-icon-lastname').innerText = 'error';
   }
 
-  if (/^[A-Z0-9+_.-]+@[A-Z0-9.-]+$/.test(email.value) !== true) {
+  if (/^[a-zA-Z0-9.-_]@[a-zA-Z].[w+]/.test(email.value) !== true) {
     e.preventDefault();
     document.getElementById('email-error').innerText = 'Looks like this is not an email';
 
